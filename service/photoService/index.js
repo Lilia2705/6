@@ -1,11 +1,8 @@
-const loadHousePhotos = require('./loadHousePhotos');
-const loadUserPhoto = require('./loadUserPhoto');
-const pathPhotosToHouse = require('./pathPhotosToHouse');
-const pathPhotoToUser = require('./pathPhotoToUser');
+const uploadHousePhotos = require('./uploadHousePhotos');
+const uploadUserPhoto = require('./uploadUserPhoto');
+
 
 module.exports = {
-   loadHousePhotos,
-    loadUserPhoto,
-    pathPhotosToHouse,
-    pathPhotoToUser
+   uploadHousePhotos,
+    uploadUserPhoto,
 };
